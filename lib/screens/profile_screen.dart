@@ -8,10 +8,12 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
+        backgroundColor: Colors.lime.shade200,
       ),
       body: const Padding(
           padding: EdgeInsets.all(16),
           child: Text('Ini adalah halaman profile')),
+      backgroundColor: Colors.lime,
     );
   }
 }

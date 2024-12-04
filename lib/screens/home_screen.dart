@@ -8,9 +8,11 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        backgroundColor: Colors.amber.shade200,
       ),
       body: const Padding(
           padding: EdgeInsets.all(16), child: Text('Ini adalah halaman home')),
+      backgroundColor: Colors.amber,
     );
   }
 }
